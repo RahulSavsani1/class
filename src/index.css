@@ -11,3 +11,88 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1{
+  font-size: 40px;
+  color: orangered;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  min-height: 400px;
+}
+
+.four{
+  margin: 2%;
+  width: 20%;
+  display: inline-block;
+  font-size: 35px;
+  color: blue;
+}
+.myTable{
+  width: 70%;
+}
+.myTable tr th,td{
+  padding: 6px 20px 6px;
+  border: 0.5px solid skyblue;
+  text-align: left;
+}
+
+fieldset{
+  margin: 2%;
+  width: 17%;
+  display: inline-block;
+  vertical-align: top;
+  border: 8px dotted blue;
+}
+
+legend{
+  color: white;
+  background-color: blue;
+  font-size: 18px;
+  padding: 5px 30px 5px;
+  border-radius: 5px;
+}
+
+nav{
+  padding: 18px;
+  text-align: center;
+  background: purple;
+}
+
+.toplink{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px 30px 15px;
+}
+
+.toplink:hover{
+  color: yellow;
+  cursor: pointer;
+}
+
+.two{
+  margin:2%;
+  padding: 1%;
+  width: 42%;
+  display: inline-block;
+  border-bottom: 5px dotted orange;
+  vertical-align: top;
+}
+
+.mytable{
+  width: 70%;
+}
+.mytable tr,th,td{
+padding: 6px 20px 6px;
+border: 2px solid skyblue;
+text-align: left;
+}
+/* .mytable thead{
+  background-color: limegreen;
+}
+.mytable tbody{
+background-color: orange;
+} */
